@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+// import React, { useRef } from 'react';
 
 const ThoughtForm = () => {
   const [formState, setFormState] = useState({ username: '', thought: '' });

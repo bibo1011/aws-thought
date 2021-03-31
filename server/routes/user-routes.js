@@ -62,7 +62,7 @@ router.get('/users/:username', (req, res) => {
 // Create new user at /api/users
 
 router.post('/users', (req, res) => {
-    console(req.body.image)
+    // console(req.body.image)
     const params = {
         TableName: table,
         Item: {
